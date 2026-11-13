@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC0-1.0 AND Apache-2.0"
+[[mods]]
+modId="essence_api"
+version="${version}"
+displayName="essence_api"
+description="Public Essence extension contracts; independent of Core."
+[[dependencies.essence_api]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.80,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.essence_api]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

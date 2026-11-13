@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"essence_api","version":"${version}","name":"essence_api","environment":"*","license":"CC0-1.0 AND Apache-2.0","depends":{"fabricloader":">=0.16.9","minecraft":"1.21.1","java":">=21"}}

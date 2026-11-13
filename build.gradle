@@ -1,0 +1,10 @@
+plugins {
+ id 'base'
+ id 'fabric-loom' version '1.8.13' apply false
+ id 'net.neoforged.moddev' version '2.0.49-beta' apply false
+}
+subprojects {
+ version=rootProject.version;group='com.faust.essence'
+ repositories { mavenCentral();maven { url='https://maven.parchmentmc.org/' } }
+}
+tasks.named('build'){dependsOn ':neoforge:build',':fabric:build'}
